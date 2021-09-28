@@ -11,9 +11,9 @@ public class PoolPuzzleSize {
         while (x < 1) {
 
             if (x < 1) {
+                x++;
                 System.out.print("a ");
                 System.out.print("n");
-                x++;
             }
 
             if (x > 0) {
@@ -31,7 +31,6 @@ public class PoolPuzzleSize {
 
             }
             System.out.print(" ");
-
         }
     }
 }
