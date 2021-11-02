@@ -20,5 +20,6 @@ public class Winner {
 
 
         game.getWinner();
+        game.getWinner2();
     }
 }

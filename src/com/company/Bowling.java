@@ -20,4 +20,13 @@ public class Bowling {
         System.out.println(max);
 
     }
+
+    void getWinner2() {
+        int maxValueInMap = (Collections.max(players.values()));  // This will return max value in the HashMap
+        for (Map.Entry<String, Integer> entry : players.entrySet()) {  // Iterate through HashMap
+            if (entry.getValue() == maxValueInMap) {
+                System.out.println(entry.getKey());     // Print the key with max value
+            }
+        }
+    }
 }
